@@ -1,0 +1,23 @@
+{
+  "name": "loancontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ganache-cli -q & truffle test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "@types/mocha": "^5.2.7",
+    "web3": "^1.2.2"
+  },
+  "devDependencies": {
+    "truffle-typings": "^1.0.8"
+  }
+}
